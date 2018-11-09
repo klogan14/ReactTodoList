@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoNotes", "CelebrityMotivation\TodoNotes.csproj", "{CBEF7291-7970-446B-A2BA-17EA4136F2C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBEF7291-7970-446B-A2BA-17EA4136F2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEF7291-7970-446B-A2BA-17EA4136F2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEF7291-7970-446B-A2BA-17EA4136F2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEF7291-7970-446B-A2BA-17EA4136F2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

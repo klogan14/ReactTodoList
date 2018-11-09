@@ -1,0 +1,57 @@
+﻿@Model Models.ProfileViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <partial name="~/Views/Shared/Partials/HeaderMenu.cshtml" />
+    
+    <h2>Welcome to your todo lists!</h2>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/CelebrityScripts/homepage.js"></script>
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <style src="~/Styles/homepage.css"></style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>Create an account</h1>
+    </div>
+    <form>
+        <div class="col-sm-6" form-group">
+            <label for="first_name">First Name:</label>
+            <input type="text" class="col-sm-4 form-control" id="first_name">
+        </div>
+        <div class="col-sm-6" form-group">
+            <label for="last_name">Last Name:</label>
+            <input type="text" class="col-sm-4 form-control" id="last_name">
+        </div>
+        <div class="col-sm-12" form-group">
+            <label for="email">Email:</label>
+            <input type="text" class="col-sm-4 form-control" id="email">
+        </div>
+        <div class="col-sm-12 form-group">
+            <label class="" for="pwd">Password:</label>
+            <input type="password" class="col-sm-4 form-control" id="pwd">
+        </div>
+        <div class="col-sm-12 form-group">
+            <label class="" for="pwd">Please type your Password again:</label>
+            <input type="password" class="col-sm-4 form-control" id="pwd2">
+        </div>
+    </form>
+
+    <div id="modal" class="white-popup-block mfp-hide">
+        <h2>Modal dialog</h2>
+        <button type="submit" value="Send">Send</button>
+        <a class="popup-modal-dismiss" href="#">Dismiss</a>
+    </div>
+    <div type="button" id="popup-btn" class="btn btn-primary">popup</div>
+
+    <div type="button" id="submit-btn" class="btn btn-primary">Submit</div>
+</body>

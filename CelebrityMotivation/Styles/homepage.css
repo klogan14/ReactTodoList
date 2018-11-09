@@ -1,0 +1,40 @@
+﻿body {
+}
+body {
+    font: 115% "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link, a:visited {
+    padding: 0.25em;
+    background: #fff;
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    border-bottom: 0.0625em dashed steelblue;
+}
+
+label {
+    display: block;
+    background: lightsteelblue;
+    margin: 0.125em;
+    padding: 0.5em;
+}
+
+button {
+    display: block;
+    margin: 1em auto;
+}
+
+#modal {
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 50%;
+    background: #eee;
+    font-size: 80%;
+}
